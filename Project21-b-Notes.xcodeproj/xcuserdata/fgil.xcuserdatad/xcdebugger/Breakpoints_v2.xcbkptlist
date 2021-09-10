@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EC36C67D-FCE2-47D8-BE23-24C4C76231D4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A16B1720-72B7-41A0-B22D-44B2D38BB9FF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Project21-b-Notes/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A16B1720-72B7-41A0-B22D-44B2D38BB9FF - 3d5436e0624fec3b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project21_b_Notes.ViewController.loadData() -&gt; ()"
+                  moduleName = "Project21-b-Notes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fgil/Desktop/Practice/Project21-b-Notes/Project21-b-Notes/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  uuid = "A16B1720-72B7-41A0-B22D-44B2D38BB9FF - dde697a0714a8ad6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Project21_b_Notes.NotesModel) -&gt; () in Project21_b_Notes.ViewController.loadData() -&gt; ()"
+                  moduleName = "Project21-b-Notes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fgil/Desktop/Practice/Project21-b-Notes/Project21-b-Notes/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "122">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
