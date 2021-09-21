@@ -9,8 +9,6 @@ import Foundation
 
 class ApiService {
     
-    private var dataTask: URLSessionDataTask?
-    
     func getData<ModelType: Decodable>(Url: String, completion: @escaping (ModelType) -> ()) {
         guard let url = URL(string: Url) else { return }
         let task = URLSession.shared.dataTask(with: url) { data, response, error in

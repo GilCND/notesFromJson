@@ -8,16 +8,25 @@
 import Foundation
 
 struct NotesResponse: Decodable {
-    let results: NotesModel
+    let results: [NotesModel]
+    
 }
 
 struct NotesModel: Decodable, Identifiable {
+    public init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        id = try container.decode(Int.self, forKey: .id)
+        name = try container.decode(String.self, forKey: .name)
+        body = try container.decode(String.self, forKey: .body)
+        date = try container.decode(String.self, forKey: .date)
+    }
+    
     public let id: Int
-    public let noteName: String
-    public let noteBody: String
-    public let dateCreated: String
+    public let name: String
+    public let body: String
+    public let date: String
     
     private enum CodingKeys: String, CodingKey {
-        case id, noteName, noteBody, dateCreated
+        case id, name, body, date
     }
 }
